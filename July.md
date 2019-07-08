@@ -10,6 +10,8 @@ July 7th
 ---
 Tonights:
 Try to make the 3's math as in home, no device available
+--> Issue: Bounding Box definations, so here we make the local working, and applying the outside holder with a script
+
 Make the event system done
 ---
 So from today I'll start writing the documentations for my SIGCHI process, in a daily process
