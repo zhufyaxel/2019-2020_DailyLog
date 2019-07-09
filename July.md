@@ -6,6 +6,27 @@ List of TO-DOs
 4. Experiments design, or random buttons in random area.
 ---
 
+July 8th
+---
+## What happened yesterday?
+
+A: Bounds issue with coordinator case
+
+What's your strategy?
+
+A: Ignore this issue first, adding another layer about the coding frameworks outside
+
+## Afternoon Plans:
+
+1. BoundingBox Layer and alignment
+2. Touching Visualizations on the virtual screen --> Radius of the finger
+3. Tween layeralk;
+
+## Lesson learned
+1. The `Renderer.bounds` is already in world space, no need to further transfer it from local to world, but need to make it world to local if needed
+2. If we add all the Bounds directly to local frame first, the calculation won't map the model itself but possibly add the frame in the local-frames, thus 45/45 logics may not work as we found
+3. So the making sense logic is : a. growing bounds in world space together; b. apply the global results into the local coordinator later
+
 July 7th
 ---
 Tonights:
